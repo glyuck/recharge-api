@@ -32,66 +32,108 @@ class2 "Recharge", JSON.parse(<<-END) do
         "properties": [],
         "variant_title": "Milk - a / b"
      },
-  "charge":
-    {
-      "address_id":178918,
-      "billing_address":{
-         "address1":"3030 Nebraska Avenue",
-         "address2":"",
-         "city":"Los Angeles",
-         "company":"",
-         "country":"United States",
-         "first_name":"Mike",
-         "last_name":"Flynn",
-         "phone":"",
-         "province":"California",
-         "zip":"90404"
-      },
-      "client_details": {
-        "browser_ip": null,
-        "user_agent": null
-      },
-      "created_at":"2017-03-01T19:52:11",
-      "customer_hash":null,
-      "customer_id":10101,
-      "first_name":"Mike",
-      "id":1843,
-      "last_name":"Flynn",
-      "line_items":[
-         {
-            "grams":0,
-            "price":100.0,
-            "properties":[],
-            "quantity":1,
-            "shopify_product_id": "1255183683",
-            "shopify_variant_id":"3844924611",
-            "sku":"",
-            "title": "Milk  10% Off Auto renew",
-            "variant_title": "a / b",
-            "vendor": "Example Storeeeeeee",
-            "subscription_id":14562
-         }
-      ],
-      "processed_at":"2014-11-20T00:00:00",
-      "scheduled_at":"2014-11-20T00:00:01",
-      "shipments_count":null,
-      "shipping_address":{
-         "address1":"3030 Nebraska Avenue",
-         "address2":"",
-         "city":"Los Angeles",
-         "company":"",
-         "country":"United States",
-         "first_name":"Mike",
-         "last_name":"Flynn",
-         "phone":"3103843698",
-         "province":"California",
-         "zip":"90404"
-      },
-      "shopify_order_id":"281223307",
-      "status":"SUCCESS",
-      "total_price":446.00,
-      "updated_at":"2016-09-05T09:19:29"
+  "charge": {
+    "address_id": 41593950,
+    "analytics_data": {
+      "utm_params": [
+        {
+          "utm_campaign": "spring_sale",
+          "utm_content": "differentiate-content",
+          "utm_data_source": "shopify_cookie",
+          "utm_medium": "email",
+          "utm_source": "newsletter",
+          "utm_term": "test-term",
+          "utm_time_stamp": "2019-12-16T23:57:28.752Z"
+        }
+      ]
     },
+    "billing_address": {
+      "address1": "Po Box 35159",
+      "address2": null,
+      "city": "Louisville",
+      "company": "Alani Nutrition LLC",
+      "country": "United States",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone": null,
+      "province": "Kentucky",
+      "zip": "40232"
+    },
+    "client_details": {
+      "browser_ip": "5.138.11.145",
+      "user_agent": "alaninu/3 CFNetwork/1121.2.1 Darwin/19.3.0"
+    },
+    "created_at": "2020-02-04T01:23:53",
+    "customer_hash": "f9ba260e6512cc2e",
+    "customer_id": 37105953,
+    "discount_codes": [],
+    "email": "user@example.com",
+    "first_name": "John",
+    "has_uncommited_changes": false,
+    "id": 209253342,
+    "last_name": "Doe",
+    "line_items": [
+      {
+        "grams": 142,
+        "images": {
+          "large": "https://cdn.shopify.com/example_large.png",
+          "medium": "https://cdn.shopify.com/example_medium.png",
+          "original": "https://cdn.shopify.com/example_0000.png",
+          "small": "https://cdn.shopify.com/example_small.png"
+        },
+        "price": "49.99",
+        "properties": [],
+        "quantity": 1,
+        "shopify_product_id": 4436189610080,
+        "shopify_variant_id": 31573790687328,
+        "sku": "AN-EB",
+        "subscription_id": 61618122,
+        "title": "Balance",
+        "variant_title": "",
+        "vendor": "Alani Nu"
+      }
+    ],
+    "note": "",
+    "note_attributes": [],
+    "processed_at": "2020-02-04T01:23:53",
+    "processor_name": "stripe",
+    "scheduled_at": "2020-02-04T00:00:00",
+    "shipments_count": 1,
+    "shipping_address": {
+      "address1": "Po Box 35159",
+      "address2": null,
+      "city": "Louisville",
+      "company": "Alani Nutrition LLC",
+      "country": "United States",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone": null,
+      "province": "Kentucky",
+      "zip": "40232"
+    },
+    "shipping_lines": [
+      {
+        "code": "Flat Rate Shipping",
+        "price": "5.00",
+        "title": "Flat Rate Shipping"
+      }
+    ],
+    "shopify_order_id": "2096645603424",
+    "status": "SUCCESS",
+    "sub_total": null,
+    "subtotal_price": "97.48",
+    "tags": "Subscription, Subscription First Order",
+    "tax_lines": "0.00",
+    "total_discounts": "0.00",
+    "total_line_items_price": null,
+    "total_price": "102.48",
+    "total_refunds": null,
+    "total_tax": "0.00",
+    "total_weight": 284,
+    "transaction_id": "ch_1G8Kp6BFfoAy0X7DazcqNYkc",
+    "type": "CHECKOUT",
+    "updated_at": "2020-02-04T01:23:53"
+  },
   "customer":
      {
         "id": 1438,
